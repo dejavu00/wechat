@@ -1,0 +1,22 @@
+<view class='home'>
+  <view class='carousel'>
+    <swiper indicator-dots="{{indicatorDots}}"
+      style="height:200px"
+      autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}" wx:key="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" width="355" height="150"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class='location flex-wrp'>
+  当前位置:
+  <button size='mini'>
+    {{currentLocaion}}
+  </button>
+  <button size='mini' type='primary' bindtap='switchCity'>
+    更换定位
+  </button>
+  </view>
+</view>

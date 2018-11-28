@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/around",
+    "pages/movie/movie",
+    "pages/more/more",
+    "pages/around/around",
+    "pages/news/news",
+    "pages/switchCity/switchCity"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2A579A",
+    "navigationBarTitleText": "The rest of life",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "position": "top",
+    "color": "#fff",
+    "backgroundColor": "#2A579A",
+    "selectedColor": "#FFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/around/around",
+        "text": "周边"
+      },
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "电影"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "新闻"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "text": "更多"
+      }
+    ]
+  }
+}

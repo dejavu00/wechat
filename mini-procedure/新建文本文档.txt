@@ -1,0 +1,1 @@
+https://github.com/BeijiYang/citySelector/blob/master/pages/switchcity/switchcity.wxml
